@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .module1 {
+    background-color: #61E8F2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .module:hover {
+    transform: scale(1.05);
+  }
+  
+  .module h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
