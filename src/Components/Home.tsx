@@ -13,15 +13,7 @@ const Home = () => {
         <div className="module" onClick={() => navigate('/Supplier')}>
           <h2>Proveedor</h2>
         </div>
-        <div className="module" onClick={() => navigate('/Evaluation')}>
-          <h2>Evaluación</h2>
-        </div>
-        <div className="module" onClick={() => navigate('/History')}>
-          <h2>Historial</h2>
-        </div>
-        <div className="module" onClick={() => navigate('/Return')}>
-          <h2>Devoluciones</h2>
-        </div>
+        
         <div className="module" onClick={() => navigate('/Services')}>
           <h2>Servicios Públicos</h2>
         </div>

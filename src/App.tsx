@@ -6,6 +6,7 @@ import History from './Components/History'
 import Return from './Components/Return'
 import Services from './Components/Services'
 import Fse from './Components/FSE'
+import SupplierForm from './Components/SupplierForm'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/supplier" element={<Supplier />} />
+        <Route path="/supplierform" element={<SupplierForm />} />
         <Route path="/evaluation" element={<Evaluation />} />
         <Route path="/history" element={<History />} />
         <Route path="/return" element={<Return />} />
