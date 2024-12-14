@@ -23,6 +23,10 @@ const Supplier = () => {
         <div className="module" onClick={() => navigate('/Return')}>
           <h2>Devoluciones</h2>
         </div>
+        <div className="module" onClick={() => navigate('/SupplierForm')}>
+          <h2>Agregar Proveedor</h2>
+        </div>
+        
       </div>
     </div>
   );
