@@ -25,7 +25,7 @@ const Return: React.FC = () => {
     <div className="container">
       <div className="header">
         <h1>Devoluciones</h1>
-        <button className="back-button" onClick={() => navigate('/')}>
+        <button className="back-button" onClick={() => navigate('/Supplier')}>
           Volver
         </button>
       </div>

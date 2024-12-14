@@ -25,7 +25,7 @@ const History = () => {
     <div className="container">
       <div className="header">
         <h1>Historial</h1>
-        <button className="back-button" onClick={() => navigate('/')}>
+        <button className="back-button" onClick={() => navigate('/Supplier')}>
           Volver
         </button>
       </div>

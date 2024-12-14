@@ -24,7 +24,7 @@ const Evaluation = () => {
     <div className="container">
       <div className="header">
         <h1>Evaluación</h1>
-        <button className="back-button" onClick={() => navigate('/')}>
+        <button className="back-button" onClick={() => navigate('/Supplier')}>
           Volver
         </button>
       </div>
