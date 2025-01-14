@@ -7,6 +7,7 @@ import Return from './Components/Return'
 import Services from './Components/Services'
 import Fse from './Components/FSE'
 import SupplierForm from './Components/SupplierForm'
+import Pae from './Components/PAE'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/return" element={<Return />} />
         <Route path="/services" element={<Services />} />
         <Route path="/fse" element={<Fse />} />
+        <Route path="/pae" element={<Pae />} />
       </Routes>
     </Router>
   )

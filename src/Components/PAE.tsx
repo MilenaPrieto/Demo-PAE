@@ -1,13 +1,13 @@
 import { useNavigate } from 'react-router-dom';
 import '../Css/Services.css';
 
-const PAE = () => {
+const Pae = () => {
     const navigate = useNavigate();
 
   return (
     <div className="container">
       <div className="header">
-        <h1>Servicios Públicos</h1>
+        <h1>Programa de Alimentación Escolar</h1>
         <button className="back-button" onClick={() => navigate('/')}>
           Volver
         </button>
@@ -27,4 +27,4 @@ const PAE = () => {
   );
 };
 
-export default PAE;
+export default Pae;

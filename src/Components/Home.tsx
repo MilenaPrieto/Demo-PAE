@@ -11,18 +11,17 @@ const Home = () => {
       </div>
       <div className="modules">
         <div className="module" onClick={() => navigate('/Supplier')}>
-          <h2>Proveedor</h2>
+          <h2>Proveedores</h2>
         </div>
-        <div className="module" onClick={() => navigate('/Fse')}>
+        <div className="module" onClick={() => navigate('/Pae')}>
           <h2>P.A.E.</h2>
         </div>
         <div className="module" onClick={() => navigate('/Services')}>
           <h2>Servicios Públicos</h2>
         </div>
         <div className="module" onClick={() => navigate('/Fse')}>
-          <h2>FSE</h2>
-        </div>
-        
+          <h2>F.S.E</h2>
+        </div>      
       </div>
     </div>
   );
