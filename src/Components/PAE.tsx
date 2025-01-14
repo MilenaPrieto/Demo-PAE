@@ -1,8 +1,7 @@
-
 import { useNavigate } from 'react-router-dom';
 import '../Css/Services.css';
 
-const Services = () => {
+const PAE = () => {
     const navigate = useNavigate();
 
   return (
@@ -15,17 +14,17 @@ const Services = () => {
       </div>
       <div className="modules">
         <div className="module1" >
-          <h2>Electricidad</h2>
+          <h2>Proveedores</h2>
         </div>
         <div className="module1" >
-          <h2>Agua</h2>
+          <h2>Minuta de Porciones</h2>
         </div>
         <div className="module1" >
-          <h2>Gas Natural</h2>
+          <h2>Evaluación</h2>
         </div>
       </div>
     </div>
   );
 };
 
-export default Services;
+export default PAE;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../Css/Return.css';
 import proveedoresData from './Suppler.json';
