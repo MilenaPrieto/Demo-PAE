@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1>Sistema de Gestión de Servicio Administrativo - SiGa</h1>
+        <h1>Sistema de Gestión de Servicio Administrativo - SiGo</h1>
       </div>
       <div className="modules">
         <div className="module" onClick={() => navigate('/Supplier')}>
